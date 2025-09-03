@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hari Ram Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.jpg" rel="icon">
+  <link href="img/favicon.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Machi Raju Hari Ram</h1>
+    <p>
+      I'm <span class="typed" data-typed-items="BTech ECE'25 | RGMCET Nandyal | Software Developer | Full Stack Developer"></span>
+    </p>
+
+    <div class="social-links">
+      <a href="https://github.com/Machiraju2003" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      <a href="http://www.linkedin.com/in/hariram-machiraju" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+
+    <!-- Wrapper for Button and Icons -->
+    <div class="button-and-icons mt-3 d-flex align-items-center flex-wrap">
+      <a href="assets/hariram_resume.pdf" download class="btn btn-primary me-3">Download Resume</a>
+
+      <!-- Fixed box for moving icons -->
+      <div class="icons-wrapper">
+        <div class="tech-stack-icons">
+          <i class="bx bxl-java" title="Java" style="color: #f89820;"></i>
+          <i class="bx bxl-python" title="Python" style="color: #306998;"></i>
+          <i class="bx bxl-c-plus-plus" title="C++" style="color: #00599C;"></i>
+          <i class="bx bxl-nodejs" title="Node.js" style="color: #68A063;"></i>
+          <i class="bx bxl-react" title="React.js" style="color: #61DAFB;"></i>
+          <i class="bx bxl-mysql" title="MySQL" style="color: #00758F;"></i>
+          <i class="bx bxl-html5" title="HTML" style="color: #e34c26;"></i>
+          <i class="bx bxl-css3" title="CSS" style="color: #1572B6;"></i>
+          <i class="bx bxl-git" title="Git" style="color: #f05032;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+  /* Tech stack icons container */
+  .icons-wrapper {
+    position: relative;
+    width: 500px; /* Fixed area for icons to move */
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .tech-stack-icons {
+    display: flex;
+    gap: 15px;
+    animation: moveIconsFixed 12s linear infinite;
+  }
+
+  .tech-stack-icons i {
+    font-size: 3rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .tech-stack-icons i:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+  }
+
+  @keyframes moveIconsFixed {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Button and icons main wrapper */
+  .button-and-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .button-and-icons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .icons-wrapper {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+</style>
+
+
+  
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="about-card">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <img src="assets/profile.jpg" class="about-img" alt="Profile">
+        </div>
+        <div class="col-lg-8 about-content">
+          <h2 class="about-heading">Ramm Machiraju</h2>
+          <p class="about-subtitle">Software Developer | Full Stack Developer | Data Structures & Machine Learning Enthusiast</p>
+          <p>
+            I am a passionate Software Developer and Full Stack Developer with strong analytical skills and a drive for solving complex real-world problems. My journey is powered by hands-on experience in developing scalable web applications, optimizing algorithms using data structures, and exploring innovative solutions using machine learning.
+          </p>
+
+          <div class="about-info row">
+            <div class="col-md-6">
+              <ul>
+                <li><strong>Birthday:</strong> 25 August 2003</li>
+                <li><strong>Phone:</strong> +91 7995307237</li>
+                <li><strong>Location:</strong> Bengaluru, India</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li><strong>Age:</strong> 21</li>
+                <li><strong>Qualification:</strong> B.Tech (ECE)</li>
+                <li><strong>Email:</strong> rammachiraju2003@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-sections">
+            <h4>Core Expertise</h4>
+            <ul>
+              <li>Full Stack Web Development (React, Node.js, Django, Flask)</li>
+              <li>Designing Efficient Algorithms & Solving Problems using Data Structures</li>
+              <li>Machine Learning Model Development and Deployment</li>
+              <li>Database Design & Query Optimization (SQL & NoSQL)</li>
+              <li>Agile Software Development & Version Control (Git, GitHub)</li>
+            </ul>
+
+            <h4>Services Offered</h4>
+            <ul>
+              <li>Custom Web Application Development (Frontend & Backend)</li>
+              <li>Machine Learning Model Building, Integration & Optimization</li>
+              <li>DSA Problem Solving Mentorship & Algorithm Training</li>
+              <li>Freelance Software Projects & Technical Consultancy</li>
+              <li>Open Source Collaboration & Code Contributions</li>
+            </ul>
+
+            <h4>Let's Collaborate</h4>
+            <p>
+              I am always eager to work on impactful projects and collaborate with teams and individuals who aim to make a difference using technology. Whether it's a challenging software development task, an innovative machine learning solution, or a freelance assignment, let's connect and make it happen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+  <h2>Facts</h2>
+  <p style="text-align: justify;">
+    Did you know the first computer programmer was Ada Lovelace, who wrote the world's first algorithm in the mid-1800s? Today, technology continues to evolve rapidly — with the number of internet users doubling approximately every two years.
+  </p>
+</div>
+
+<div class="row">
+
+  <div class="col-lg-3 col-md-6">
+    <div class="count-box">
+      <i class="bi bi-emoji-smile"></i>
+      <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+    <div class="count-box">
+      <i class="bi bi-journal-richtext"></i>
+      <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Completed Projects</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+    <div class="count-box">
+      <i class="bi bi-headset"></i>
+      <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Hours of Technical Support</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+    <div class="count-box">
+      <i class="bi bi-award"></i>
+      <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Professional Recognitions</p>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <div>
+  <p style="text-align: justify;">
+
+    <strong>Software Development:</strong> Proficient in Java, Python, C++, and C, with the ability to develop web applications, mobile apps, and desktop software solutions.<br><br>
+
+    <strong>Cybersecurity:</strong> Solid understanding of cybersecurity principles and hands-on experience as a Cyber Security Associate. Skilled in penetration testing, conducting security awareness training, and providing consulting services.<br><br>
+
+    <strong>Database Management:</strong> Experienced in SQL, with expertise in data extraction, analysis, reporting, and database administration tasks.<br><br>
+
+    <strong>Programming Languages:</strong> Quick to learn new programming languages and frameworks, with a commitment to staying current with evolving technologies and industry trends.<br><br>
+
+    <strong>Problem-Solving:</strong> Strong analytical and critical thinking skills, capable of diagnosing and resolving complex technical challenges efficiently.<br><br>
+
+    <strong>Communication:</strong> Effective in both written and verbal communication, fostering collaboration with team members and engaging clearly with clients.<br><br>
+
+    <strong>Time Management:</strong> Skilled at managing time and prioritizing responsibilities to meet project deadlines reliably.
+  </p>
+</div>
+
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java Script <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">vue.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">php <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+    
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Mango DB <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+
+            <div class="progress">
+              <span class="skill">Data Structure and Algorithms <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Machine Learning <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume-Introduction</h2>
+          <p>B.Tech in Electronics and Communication Engineering, RGMCET Nandyal, A.P, India.
+            Further information can be get through linkedin.
+
+          </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Hari Ramm</h4>
+              <p><em>
+                 Experienced in writing high-quality, well-documented code, evaluating AI model and drawing insights from data. Effective communicator with a keen eye for software quality and performance. </em></p>
+              <ul>
+                <li>Housing board colony, Rajiv Marg, Kadapa, A.P</li>
+                <li>+91 7995307237</li>
+                <li>rammachiraju2003@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Electronics and communication Engineering</h4>
+              <h5>2021 - 2025</h5>
+              <p><em>RGMCET, Nandyal</em></p>
+              <p style="text-align: justify;">
+  Maintained consistent academic performance with a 7.42 CGPA in Electronics and Communication Engineering.<br>
+  Relevant coursework: VLSI, Digital Electronics, Printed Circuit Board, Embedded Systems.
+</p>
+
+            </div>
+            <div class="resume-item">
+              <h4>Intermediate</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Sri Gayatri Educational Institutions, Kadapa</em></p>
+              <p style="text-align: justify;">
+                   Board of Secondary School (10th Class) – 98% Aggregate<br>
+                   Board of Intermediate (12th Class) – 90% (92.33% in PCM)
+              </p>
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>Multiple Artifact Detection Based on Adaptive Scalp Region Selection 
+and Classifier Fusion</h4>
+              <h5>Dec 2024 - apr 2025</h5>
+
+
+              <p><em>Machine Learning Algorithms (SVM, RF, NB, Voting classifier), Python, MNE – 
+Python, NumPy, Pandas, Scikit – Learn, Matplotlib/Seaborn, Digital Signal 
+Processing </em></p>
+              <ul>
+
+
+                <li>
+Designed and implemented an ensemble machine learning model for 
+EEG artifact detection using Support Vector Machine (SVM), Random 
+Forest (RF), and Naïve Bayes (NB). 
+                </li>
+
+
+                <li>
+Processed EEG signals using MNE-Python, focusing on channels like 
+“EEG FP1-REF” for standardization and consistency.
+</li>
+
+                <li>Applied Z-score normalization and binary label encoding for 
+effective preprocessing and model training.</li>
+
+
+                <li>Demonstrated improved robustness in real-time EEG artifact detection 
+scenarios, making the model suitable for brain-computer interfaces 
+(BCIs) and clinical diagnostics.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>E – Learning Online Website</h4>
+              <h5>2024 - 2025</h5>
+              <p><em>HTML, CSS, SCSS, Java Script, php</em></p>
+              <ul>
+                <li style="text-align: justify;">Spearheaded the development of Aadya Gyan e-learning platform using 
+HTML5, CSS3, SCSS, and JavaScript, implementing responsive design 
+architecture that accommodated 10,000+ concurrent users, resulting in 40% 
+increased mobile engagement, 60% reduction in load times, and 95% user 
+satisfaction rating.</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">E - Learning</li>
+              <li data-filter=".filter-card">Food Order</li>
+              <li data-filter=".filter-web">Info</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/project-1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>e - Learning</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="https://aadyagyan.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/project-3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Yumm foods</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="https://yumm-foods.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/project-2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Personal info</h4>
+                <p>Web site</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="https://rammfolio.netlify.app/" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/project-4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Laundry Services</h4>
+                <p>Web site</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/project-5.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Online Movies</h4>
+                <p>Website</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/project-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Microsoft Jarvis</h4>
+                <p>Web site</p>
+                <div class="portfolio-links">
+                  <a href="assets/project-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+        
+  
+
+  <h2>Services</h2>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Web Development:</strong> I design and develop responsive, user-friendly websites and web applications tailored to client goals. Whether it's a business landing page, an e-commerce platform, or a custom web tool, I ensure performance, scalability, and modern design practices using HTML, CSS, JavaScript, and frameworks like React and Node.js.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Mobile App Development:</strong> I build functional, visually appealing apps for Android and iOS. I specialize in intuitive user experiences using technologies like Flutter or native development tools, including push notifications, authentication, and offline support.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Desktop Application Development:</strong> I create robust desktop applications for Windows and Linux platforms using Java, Python, or C++. These applications are ideal for business workflows, custom utilities, and offline processing.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Freelance Programming:</strong> I work with clients globally on platforms like Upwork and Fiverr, offering efficient code development, bug fixes, feature enhancements, and complete software solutions tailored to specific project needs.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Cyber Security Services:</strong><br>
+      - <strong>Penetration Testing:</strong> Simulate real-world attacks to identify security loopholes.<br>
+      - <strong>Security Awareness Training:</strong> Empower employees to recognize and avoid cyber threats.<br>
+      - <strong>Cybersecurity Consulting:</strong> Evaluate and improve your organization's overall security posture through strategic guidance and audits.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Database Management:</strong><br>
+      - <strong>Data Analysis and Reporting:</strong> Generate insights from complex datasets using SQL queries.<br>
+      - <strong>Database Administration:</strong> Maintain secure and high-performance databases with regular backups, tuning, and troubleshooting.
+    </p>
+  </div>
+
+  <div class="card">
+    <p style="text-align: justify;">
+      <strong>Additional Services:</strong><br>
+      - <strong>Tutoring:</strong> Teach students and professionals in programming, cybersecurity, and databases through structured lessons and practical projects.<br>
+      - <strong>Content Creation:</strong> Write insightful blog posts, tutorials, and documentation on current tech trends and tools.<br>
+      - <strong>Open-Source Contributions:</strong> Collaborate on community-driven software, submitting patches, fixing bugs, and improving documentation.
+    </p>
+  </div>
+</div>
+
+
+
+
+        <div class="row">
+
+          <!-- Service Card 1 -->
+<!-- Card 1: Web Development -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+  <div class="icon-box iconbox-blue h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,521.001..."></path>
+      </svg>
+      <i class="bx bxl-dribbble"></i>
+    </div>
+    <h4><a href="#">Web Development</a></h4>
+    <p>I build responsive, SEO-optimized websites using HTML, CSS, JavaScript, and frameworks like React and Next.js. Whether you need a landing page or a full-stack web application, I deliver with quality and scalability in mind.</p>
+  </div>
+</div>
+
+<!-- Card 2: Full Stack Development -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+  <div class="icon-box iconbox-orange h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,582.069..."></path>
+      </svg>
+      <i class="bx bx-code-alt"></i>
+    </div>
+    <h4><a href="#">Full Stack Solutions</a></h4>
+    <p>End-to-end development using technologies like MERN (MongoDB, Express, React, Node.js) and RESTful APIs. From user interface to database architecture, I handle all layers of application development.</p>
+  </div>
+</div>
+
+<!-- Card 3: Mobile App Development -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+  <div class="icon-box iconbox-pink h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,541.506..."></path>
+      </svg>
+      <i class="bx bx-mobile"></i>
+    </div>
+    <h4><a href="#">Mobile App Development</a></h4>
+    <p>I develop cross-platform mobile apps using Flutter and React Native. Whether it's a productivity tool or a customer-facing app, I focus on performance, clean UI, and scalability.</p>
+  </div>
+</div>
+
+<!-- Card 4: Software Engineering -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+  <div class="icon-box iconbox-yellow h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,503.463..."></path>
+      </svg>
+      <i class="bx bx-desktop"></i>
+    </div>
+    <h4><a href="#">Software Development</a></h4>
+    <p>I design and build efficient desktop and backend applications using Python, Java, and C++. Solutions include automation tools, internal dashboards, and custom software tailored to your business goals.</p>
+  </div>
+</div>
+
+<!-- Card 5: API Development -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+  <div class="icon-box iconbox-red h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,532.354..."></path>
+      </svg>
+      <i class="bx bx-transfer"></i>
+    </div>
+    <h4><a href="#">REST & GraphQL APIs</a></h4>
+    <p>Build secure, high-performance APIs using Node.js, Express, and GraphQL. I specialize in scalable backend systems with authentication, database integration, and API documentation.</p>
+  </div>
+</div>
+
+<!-- Card 6: Deployment & DevOps -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+  <div class="icon-box iconbox-teal h-100">
+    <div class="icon">
+      <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f5f5f5" d="M300,566.797..."></path>
+      </svg>
+      <i class="bx bx-cloud-upload"></i>
+    </div>
+    <h4><a href="#">Deployment & DevOps</a></h4>
+    <p>I automate deployment pipelines and manage servers using Docker, CI/CD, and cloud services like AWS and Vercel. Get zero-downtime releases and performance-optimized deployments.</p>
+  </div>
+</div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+  <h2>Testimonials</h2>
+</div>
+
+<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+  <div class="swiper-wrapper">
+
+    <!-- Testimonial 1 -->
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Alex Johnson">
+        <h3>Alex Johnson</h3>
+        <h4>Tech Lead, NovaCorp</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Working with this developer was an absolute pleasure. Their full stack expertise allowed us to ship our product faster and with better code quality. Truly reliable and proactive in every phase of development.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Emily Clark">
+        <h3>Emily Clark</h3>
+        <h4>Founder, DesignSphere</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Exceptionally talented in both frontend and backend development. From UI/UX design to deploying scalable APIs, everything was handled with precision. Highly recommend for startups needing full-stack solutions.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Michael Smith">
+        <h3>Michael Smith</h3>
+        <h4>Operations Head, DataLink Systems</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Professional, punctual, and precise. Their backend automation scripts saved us countless hours, and their database management skills were top-notch. A truly dependable software engineer.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 4 -->
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Sophia Lee">
+        <h3>Sophia Lee</h3>
+        <h4>Freelance UX Designer</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          The synergy between design and development was incredible. They understood the importance of user-centered design and built interfaces that were both functional and elegant. Will definitely collaborate again.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 5 -->
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="David Martinez">
+        <h3>David Martinez</h3>
+        <h4>Entrepreneur & Mentor</h4>
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Beyond technical skills, they bring strategic thinking to the table. Helped us scale our MVP to a full product, set up CI/CD pipelines, and improve code maintainability. A key asset to any tech team.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Bengaluru, Karnataka, India</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>rammachiraju2003@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 7995307237</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Hari Ramm</h3>
+      <p>Thank You</p>
+      <div class="social-links">
+        <a href="https://github.com/Machiraju2003"target="_blank" class="C"><i class="bx bxl-github"></i></a>
+        
+        <a href="http://www.linkedin.com/in/hariram-machiraju"target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hari Ramm</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://github.com/Machiraju2003">Hari Ramm</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
